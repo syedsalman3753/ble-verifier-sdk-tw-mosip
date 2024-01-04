@@ -22,7 +22,7 @@ on:
       - inji*
 jobs:
   build-ble-verifier:
-    uses: syedsalman3753/kattu/.github/workflows/npm-build.yml@inji-678-build-publish
+    uses: syedsalman3753/kattu/.github/workflows/npm-build.yml@master
     with:
       SERVICE_LOCATION: '.'
       BUILD_ARTIFACT: BLE-Verifier-Sdk
