@@ -26,7 +26,7 @@ jobs:
     with:
       SERVICE_LOCATION: '.'
       BUILD_ARTIFACT: BLE-Verifier-Sdk
-      NPM_BUILD_TYPE: 'lib'
+      NPM_BUILD_TYPE: 'BOB'
     secrets:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
 
