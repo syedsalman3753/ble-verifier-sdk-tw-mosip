@@ -21,7 +21,7 @@ on:
       - MOSIP*
 jobs:
   build-ble-verifier:
-    uses: tw-mosip/kattu/.github/workflows/npm-build.yml@inji-678-build-publish
+    uses: syedsalman3753/kattu/.github/workflows/npm-build.yml@inji-678-build-publish
     with:
       SERVICE_LOCATION: '.'
       BUILD_ARTIFACT: BLE-Verifier-Sdk
