@@ -19,6 +19,7 @@ on:
       - 1.*
       - develop*
       - MOSIP*
+      - inji*
 jobs:
   build-ble-verifier:
     uses: syedsalman3753/kattu/.github/workflows/npm-build.yml@inji-678-build-publish
